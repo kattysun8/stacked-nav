@@ -1,5 +1,5 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 }
 
 h1 {
-  background-color: #EFEFE9;
-  color: #4E2506;
+  background-color: #efefe9;
+  color: #4e2506;
   text-align: center;
   display: block;
   border: 0;
@@ -20,22 +20,26 @@ h1 {
 }
 
 .beetle-types {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.beetle-types li a{
-  background-color: #9A816D;
+.beetle-types li a {
+  background-color: #9a816d;
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  border: 0px solid #e2e2e2;
+  border: 0.5px solid #7a5537;
   display: inline-block;
   width: 100%;
 }
 
+.beetle-types li a:hover {
+  background-color: #7a5537;
+}
+
 *, *::before, *::after {
-  	box-sizing: inherit;
+  box-sizing: inherit;
 }
