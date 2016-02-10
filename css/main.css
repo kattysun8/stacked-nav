@@ -1,11 +1,22 @@
 html {
 	box-sizing: border-box;
-  background-color: #fff;
-  font-family: "Dosis", sans-serif;
 }
 
-*, *::before, *::after {
-  	box-sizing: inherit;
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Dosis", sans-serif;
+  line-height: 2.5rem;
+}
+
+h1 {
+  background-color: #EFEFE9;
+  color: #4E2506;
+  text-align: center;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .beetle-types {
@@ -15,24 +26,16 @@ html {
   text-align: center;
 }
 
-.beetle-types li{
-  background-color: #9A816D
-}
-
-.beetle-types {
+.beetle-types li a{
+  background-color: #9A816D;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
   border: 0px solid #e2e2e2;
-  border-radius: 10px
-  margin: 0.5em 1em .5em;
-  padding: 1em;
-  max-width: 20em;
   display: inline-block;
-  text-align: center;
+  width: 100%;
 }
 
-h1 {
-  background-color: #EFEFE9
-}
-
-body {
-
+*, *::before, *::after {
+  	box-sizing: inherit;
 }
