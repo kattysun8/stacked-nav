@@ -1,0 +1,17 @@
+html {
+	box-sizing: border-box;
+  background-color: #fff;
+  font-family: Dosis, serif;
+}
+
+  *, *::before, *::after {
+  	box-sizing: inherit;
+  }
+}
+
+.info-boxes{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
