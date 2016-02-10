@@ -1,15 +1,14 @@
 html {
 	box-sizing: border-box;
   background-color: #fff;
-  font-family: Dosis, serif;
+  font-family: "Dosis", sans-serif;
 }
 
-  *, *::before, *::after {
+*, *::before, *::after {
   	box-sizing: inherit;
-  }
 }
 
-.info-boxes{
+.info-boxes {
   list-style: none;
   margin: 0;
   padding: 0;
